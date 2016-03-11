@@ -1,0 +1,14 @@
+{
+    "name": "atimmer/tools",
+    "description": "Tools I use to streamline my workflows",
+    "require": {
+        "symfony/console": "^3.0",
+        "psr/log": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Anton Timmermans",
+            "email": "email@atimmer.com"
+        }
+    ]
+}
