@@ -1,9 +1,17 @@
 #!/usr/local/bin/php
 <?php
 
+namespace Atimmer\Tools;
+
+use Atimmer\Tools\Commands\SplitInterval;
+
 require_once( __DIR__ . '/../vendor/autoload.php' );
 
 $app = new \Symfony\Component\Console\Application(
     'Atimmer Tool',
     '1.0.0'
 );
+
+$app->add(new SplitInterval());
+
+$app->run();
